@@ -1,0 +1,5 @@
+.jumbotron{
+  background-image: url(../img/world.jpg);
+  background-position: center;
+  background-size: cover;
+}
