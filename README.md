@@ -10,7 +10,7 @@ _{This is a quiz I created that will generate your next vacation destination by 
 
 ## Setup/Installation Requirements
 
-* _First, link to my github repository https://github.com/NikiGarner/vacation.git_
+* _First, link to my github repository https://github.com/NikiGarner/vacationquiz.git_
 * _replicate my site to your desktop_
 * _next, perform git clone in the terminal_
 * _then, perform git fetch_
