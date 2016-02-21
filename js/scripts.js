@@ -1,11 +1,10 @@
 $(document).ready(function() {
-
   $("form#question").submit(function(event){
       var drink = $("select#drink").val();
       var transportation = $("select#transportation").val();
       var passport = $("select#passport").val();
       var time = $("select#time").val();
-      var climate = $("select#sclimate").val();
+      var climate = $("select#climate").val();
 
       if (drink === 'coffee' && transportation === 'car' && passport === 'yes' && time === 'book' && climate === 'mountain'){
         $("#Alaska").show();
