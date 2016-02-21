@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
@@ -16,121 +16,75 @@
       </div>
       <div class="row">
         <div class="col-md-12">
-        <form>
+        <form id="blanks">
           <div class="form-group">
             <label for="name">What is your name?</label>
             <input id="name" class="form-control" type="text">
           </div>
         </form>
           <h3>1. What is your favorite drink?</h3>
-          <div class="radio">
-            <img src="img/coffee.jpg" alt="coffee">
+          <form id="question">
             <label>
-              <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1">
-              Coffee
+              <select id="drink">
+                <option value="coffee">Coffee</option>
+                <option value="tea">Tea</option>
+              </select>
             </label>
-          </div>
-          <div class="radio">
-            <img src="img/tea.jpg" alt="tea">
-            <label>
-              <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
-              Tea
-            </label>
-          </div>
-          <div class="radio">
-            <img src="img/pog.jpg" alt="P.O.G.">
-            <label>
-              <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3">
-              P.O.G
-            </label>
-          </div>
 
             <h3>2. What mode of transportation do you perfer?</h3>
-            <div class="radio">
-              <img src="img/car.jpg" alt="car">
-              <label>
-                <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1">
-                Car
-              </label>
-            </div>
-            <div class="radio">
-              <img src="img/train.jpg" alt="train">
-              <label>
-                <input type="radio" name="optionsRadios" id="optionsRadio2" value="option2">
-                Train
-              </label>
-            </div>
-            <div class="radio">
-              <img src="img/plane.jpg" alt="airplane">
-              <label>
-                <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3">
-                Airplane
-              </label>
-            </div>
+            <label>
+              <select id="transportation">
+                <option value="car">Car</option>
+                <option value="airplane">Airplane</option>
+              </select>
+            </label>
 
             <h3>3. Do you have a passport?</h3>
-            <div class="radio">
-              <label>
-                <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1">
-                Yes
-              </label>
-            <div class="radio">
-              <label>
-                <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
-                No
-              </label>
+            <label>
+              <select id="passport">
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+              </select>
+            </label>
 
               <h3>4. How do you send your free time?</h3>
-              <div class="radio">
-                <img src="img/shopping.jpg" alt="shopping">
-                <label>
-                  <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1">
-                  Go shopping
-                </label>
-              <div class="radio">
-              <img src="img/movie.jpg" alt="movie">
-                <label>
-                  <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
-                  Watch a movie
-                </label>
-              <div class="radio">
-                <img src="img/books.jpg" alt="books">
-                <label>
-                  <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3">
-                    Read a book
-                </label>
-              </div>
+              <label>
+                <select id="time">
+                  <option value="book">Read a book</option>
+                  <option value="shopping">Go shopping</option>
+                </select>
+              </label>
 
-              <h3>5. What climate do you find most enjoyable?></h3>
-              <div class="radio">
-                <img src="img/beach.jpg" alt="beach">
-                <label>
-                  <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1">
-                  Tropical
-                </label>
-              <div class="radio">
-                <img src="img/mountain.jpg" alt="mounatin">
-                <label>
-                  <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
-                  Mountain
-                </label>
-              <div class="radio">
-                <img src="img/desert.jpg" alt="desert">
-                <label>
-                  <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3">
-                  Desert
-                </label>
-              </div>
-              <button type="submit" class="btn">Find your next vacation!</button>
+              <h3>5. What climate do you find most enjoyable?</h3>
+              <label>
+                <select id="climate">
+                  <option value="mountain">Moderate</option>
+                  <option value="tropical">Tropical</option>
+                </select>
+              </label>
+<br></br>
+        <button type="submit" class="btn">Find your next vacation!</button>
+        </form>
 
-
-
-
-
-
+          <div id="Hawaii">
+            <p><span id="name"></span>, you should go to Hawaii! </p>
+            <img src ="img/hawaii.jpg">
+          </div>
+          <div id="Alaska">
+            <p><span id="name"></span>, you should go to Alaska!</p>
+            <img src ="img/alaska.jpg">
+          </div>
+          <div id="London">
+            <p><span id="name"></span>, you should go to London!</p>
+            <img src ="img/London.jpg">
+          </div>
+          <div id="Palm">
+            <p><span id="name"></span>, you should go to Palm Springs!</p>
+          <img src ="img/palm-springs.jpg">
         </div>
-
-
+        </div>
+      </div>
+      </div>
     </div>
   </body>
 </html>
