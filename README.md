@@ -1,38 +1,46 @@
-# _{Niki Garner}
+# Vacation Quiz
+## EPICODUS STUDENT PROJECT
+## Introduction Class
 
-#### _{Vacation Quiz}, {2/20/2016}_
+#### 2/20/16
 
-#### By _**{Niki Garner}**_
+#### By _**Niki Garner**_
 
 ## Description
-
-_{This is a quiz I created that will generate your next vacation destination by answering 5 questions.}_
+This was an Independent project for Epicodus. The purpose was to create a site practing JS and jQuery skills. The user was to take a quiz and an answer would generate on where they should vacation.
 
 ## Setup/Installation Requirements
 
-* _First, link to my github repository https://github.com/NikiGarner/vacationquiz.git_
-* _replicate my site to your desktop_
-* _next, perform git clone in the terminal_
-* _then, perform git fetch_
-* _then,  perform git checkout master_
-* _finally, you will be able to  view the index.html page_
-
-
+* Clone this repository
+* In the command-line at top file run:
+```
+$ git clone https://github.com/NikiGarner/vacationquiz.git
+```
+```
+$ cd vacationquiz
+```
 
 ## Known Bugs
 
-_{No known bugs}_
+* Currently no known bugs
 
 ## Support and contact details
 
-_{If you run  into any issues whether it is a bug or what have you, please contact me at name@email.com}_
+If you run into any issues or have questions, ideas, or concerns, please feel free to contact me on GitHub.
 
 ## Technologies Used
 
-_{This website used Bootstrap for the styling of the page.}_
+* HTML
+* CSS
+* JS
+* jQuery
+* Bootstrap
+
 
 ### License
 
-*{GPL}*
+*MIT License*
+<a href="https://opensource.org/licenses/MIT">https://opensource.org/licenses/MIT</a>
 
-Copyright (c) 2016 **_{Niki Garner}_**
+Copyright (c) 2016 **_Epicodus_**
+
